@@ -1,8 +1,10 @@
 
+
 class Employee:
     """A sample Employee class"""
 
     def __init__(self, first, last):
+
         self.first = first
         self.last = last
 
@@ -16,5 +18,10 @@ class Employee:
     def fullname(self):
         return '{} {}'.format(self.first, self.last)
 
+
+for num in [1, 2, 3, 4]:
+    print(num)
+
+print("dir() Employee: " + str(dir(Employee)))
 
 emp_1 = Employee('John', 'Smith')

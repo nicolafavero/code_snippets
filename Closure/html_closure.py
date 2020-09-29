@@ -7,7 +7,7 @@ def outer():
 
 my_func = outer
 
-print my_func()
+print(my_func())
 
 # h1_tag = html_tag('h1')
 # print h1_tag
